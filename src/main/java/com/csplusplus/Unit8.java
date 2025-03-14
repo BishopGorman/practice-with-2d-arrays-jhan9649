@@ -7,9 +7,9 @@ public class Unit8 {
     public static int sumOfElements(int[][] array) {
         // TODO: Implement this method
         int total;
-        for(int i=0; i<array.length; i++){
-            for(int j=0; j<array[i].length; j++){
-                total += array[i][j];
+        for(int []nums: array){
+            for(int num: nums){
+                total += num;
             }
         }
         return total;  // Placeholder return value
