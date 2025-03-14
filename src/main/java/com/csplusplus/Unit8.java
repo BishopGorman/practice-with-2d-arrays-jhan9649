@@ -6,7 +6,13 @@ public class Unit8 {
     // Instructions: Traverse the 2D array and calculate the sum of all elements.
     public static int sumOfElements(int[][] array) {
         // TODO: Implement this method
-        return 0;  // Placeholder return value
+        int total;
+        for(int i=0; i<array.length; i++){
+            for(int j=0; j<array[i].length; j++){
+                total += array[i][j];
+            }
+        }
+        return total;  // Placeholder return value
     }
 
     // 2. Method to count how many times a specific number appears in a 2D array
