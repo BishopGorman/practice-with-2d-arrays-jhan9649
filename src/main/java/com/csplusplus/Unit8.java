@@ -6,7 +6,7 @@ public class Unit8 {
     // Instructions: Traverse the 2D array and calculate the sum of all elements.
     public static int sumOfElements(int[][] array) {
         // TODO: Implement this method
-        int total;
+        int total = 0;
         for(int []nums: array){
             for(int num: nums){
                 total += num;
